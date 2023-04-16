@@ -1,0 +1,31 @@
+.profileImage {
+    width: 150px;
+}
+.infoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.personWrapper {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.btn {
+    background: transparent;
+    outline: none;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.descriptionText {
+    color: black;
+}
+.descriptionTextCrossed {
+    color: red;
+    text-transform: line-through;
+}
